@@ -1,0 +1,23 @@
+const seatingsStudents = (arr) => {
+  const desks = arr[0];
+  occupied = arr.slice(1);
+  const isValid = (desk1, desk2) {
+    return !occupied.includes(desk1) && !occupied.includes(desk2);
+  }
+  let possiblePair = 0;
+  for(let rowStart = 1; rowStart <= desks; rowStart += 2) {
+    if(rowStart + 1 <= desks) {
+      if(isValid(rowStart, rowStart+1)) {
+        possiblePair++;
+      }
+    }
+  }
+   for(let colStart = 1; colStart <= desks; colStart += 1) {
+    if(colStart + 2 <= desks) {
+      if(isValid(colStart, colStart+2)) {
+        possiblePair++;
+      }
+    }
+  }
+  return possiblePair;
+}
