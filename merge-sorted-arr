@@ -1,3 +1,4 @@
+#merge two sorted arrays by concatenating the second array elements to the first array and by sorting the resulting array
 function(nums1, m, nums2, n) {
     for (let i = 0; i < n; i++){
         nums1[m+i] = nums2[i];
