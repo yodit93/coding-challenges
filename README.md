@@ -3,3 +3,4 @@
 2. minWindowSubstring challenge
 3. mergeSortedArray challenge
 4. removeElement
+5. camelCase
