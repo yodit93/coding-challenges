@@ -4,9 +4,15 @@ const caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const small = "abcdefghijklmnopqrstuvwxyz"
 let arr = []
 let temp = ""
-for(let i = 0; o < str.length; i++){
-  if()
-  if(arr.lengrh === 0) {
+for(let i = 0; i < str.length; i++){
+  if(caps.includes(str[i]) || small.includes(str[i])){
+    if(arr.lengrh === 0) {
+      temp += str[i]
+    }
+    else {
     
+    }
+
   }
+  
 }
