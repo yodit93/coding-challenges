@@ -10,7 +10,7 @@ for(let i = 0; i < str.length; i++){
       temp += str[i]
     }
     else {
-    
+     temp = temp.toUpperCase
     }
 
   }
