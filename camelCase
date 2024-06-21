@@ -1,18 +1,26 @@
 function camelCase(str) {
 
-const caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-const small = "abcdefghijklmnopqrstuvwxyz"
-let arr = []
-let temp = ""
-for(let i = 0; i < str.length; i++){
-  if(caps.includes(str[i]) || small.includes(str[i])){
-    if(arr.lengrh === 0) {
+  const caps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const small = "abcdefghijklmnopqrstuvwxyz"
+  let arr = []
+  let temp = ""
+  for(let i = 0; i < str.length; i++){
+    if(caps.includes(str[i]) || small.includes(str[i])){
       temp += str[i]
     }
     else {
-     temp = temp.toUpperCase
+      if(arr.length === 0) {
+        temp.toLowerCase()
+      }
+      else {
+        temp = temp.charAt(0).toUpperCase() + temp.slice(1).toLowercase();
+      }
+      arr.push(temp)
+      temp = ""
     }
-
   }
-  
+  temp = temp.charAt(0).toUpperCase() + temp.slice(1).toLowercase();
+  arr.push(temp)
+  const str2 = arr.join("")
+  return str2
 }
