@@ -4,3 +4,4 @@
 3. mergeSortedArray challenge
 4. removeElement
 5. camelCase
+6. sumMultiple
