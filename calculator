@@ -1,1 +1,19 @@
-#do calculation by accepting expressions with out bracket
+#do calculation by accepting expressions without bracket
+function calculate(operator, opr1, opr2) {
+  switch(operator) {
+    case "+":
+      return opr1 + opr2;
+    case "-":
+      return opr1 - opr2;
+    case "/":
+      return opr1 / opr2;
+    case "*":
+      return opr1 * opr2;
+    default:
+      return "Not valid operator";
+  }
+}
+
+function isOperaror(operator) {
+  
+}
