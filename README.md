@@ -5,3 +5,6 @@
 4. removeElement
 5. camelCase
 6. sumMultiple
+
+One week Hhackerrank interview preparation kit:
+Day 1: plusMinus
