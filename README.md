@@ -6,5 +6,5 @@
 5. camelCase
 6. sumMultiple
 
-One week Hhackerrank interview preparation kit:
+One week Hackerrank interview preparation kit:
 Day 1: plusMinus
