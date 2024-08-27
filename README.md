@@ -8,3 +8,4 @@
 
 One week Hackerrank interview preparation kit:
 Day 1: plusMinus
+Day 2: angryProfessor
