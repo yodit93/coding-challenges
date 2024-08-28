@@ -7,6 +7,6 @@
 6. sumMultiple
 
 One week Hackerrank interview preparation kit:
-Day 1: plusMinus, miniMaxSum
+Day 1: plusMinus, miniMaxSum, timeCoversion
 
 Day 2: angryProfessor
