@@ -5,6 +5,7 @@
 4. removeElement
 5. camelCase
 6. sumMultiple
+7. gradingStudents challenge
 
 One week Hackerrank interview preparation kit:
 Day 1: plusMinus, miniMaxSum, timeCoversion
